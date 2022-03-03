@@ -50,7 +50,6 @@ public class Exam7 {
 			
 			if(min > score) { 
 				min = score;
-				continue;
 			}else if(max < score) {
 				max = score;
 			}
@@ -60,6 +59,20 @@ public class Exam7 {
 		System.out.println("최고점수 >> " + max);
 		System.out.println("최소점수 >> " + min);
 		
+		int aa= 0;
+		int bb = 0;
+		Loop1 : while(true) {
+			aa++;
+			System.out.println("a");
+			
+			while(true) {
+				bb++;
+				System.out.println("b");
+				if(bb == 4) {
+					break Loop1;
+				}
+			}
+		}
 	}
 }
 
