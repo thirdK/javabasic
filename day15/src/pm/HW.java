@@ -143,9 +143,7 @@ public class HW {
 		for(int i=0; i<a.length; i++) {
 			y[i] = a[i];
 		}
-		
 		return y;
-		
 	}
 }
 
