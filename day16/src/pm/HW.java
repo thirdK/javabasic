@@ -6,80 +6,80 @@ public class HW {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-//		//7-23
-//		System.out.print("요소의 수 : ");
-//		int[] arr1 = new int[sc.nextInt()];
-//
-//		for(int i=0; i<arr1.length; i++) {
-//			System.out.printf("arr1[%d] : ", i);
-//			arr1[i] = sc.nextInt();
-//		}
-//		
-//		System.out.print("탐색할 값 : ");
-//		int[] r1 = arraySrchIdx(arr1, sc.nextInt());
-//		System.out.println("일치하는 요소의 인덱스");
-//		for(int i : r1) {
-//			System.out.println(i);
-//		}
-//		System.out.println();
-//		
-//		//7-24
-//		System.out.print("요소 수 : ");
-//		int[] arr2 = new int[sc.nextInt()];
-//		
-//		for(int i=0; i<arr2.length; i++) {
-//			System.out.printf("arr2[%d] : ", i);
-//			arr2[i] = sc.nextInt();
-//		}
-//		
-//		System.out.print("삭제할 요소의 인덱스 : ");
-//		int[] r2 = arrayRmvOf(arr2, sc.nextInt());
-//		
-//		for(int i=0; i<r2.length; i++) {
-//			System.out.printf("r2[%d] = %d\n", i, r2[i]);
-//		}
-//		System.out.println();
-//		
-//		//7-25
-//		System.out.print("요소 수 : ");
-//		int[] arr3 = new int[sc.nextInt()];
-//		
-//		for(int i=0; i<arr3.length; i++) {
-//			System.out.printf("arr3[%d] : ", i);
-//			arr3[i] = sc.nextInt();
-//		}
-//		System.out.print("삭제를 시작할 인덱스 : ");
-//		int idx3 = sc.nextInt();
-//		System.out.print("삭제할 요소의 개수 : ");
-//		int n3 = sc.nextInt();
-//		int[] r3 = arrayRmvOfN(arr3, idx3, n3);
-//		
-//		for(int i=0; i<r3.length; i++) {
-//			System.out.printf("r3[%d] = %d\n", i ,r3[i]);
-//		}
-//		
-//		System.out.println();
-//		
-//		//7-26
-//		System.out.print("요소 수 : ");
-//		int[] arr4 = new int[sc.nextInt()];
-//		
-//		for(int i=0; i<arr4.length; i++) {
-//			System.out.printf("arr4[%d] : ", i);
-//			arr4[i] = sc.nextInt();
-//		}
-//		
-//		System.out.print("삭제를 시작할 인덱스 : ");
-//		int idx4 = sc.nextInt();
-//		System.out.print("삭제할 요소의 개수 : ");
-//		int n4 = sc.nextInt();
-//		int[] r4 = arrayInsOf(arr4, idx4, n4);
-//		
-//		for(int i=0; i<r4.length; i++) {
-//			System.out.printf("r4[%d] = %d\n", i ,r4[i]);
-//		}
-//		
-//		System.out.println();
+		//7-23
+		System.out.print("요소의 수 : ");
+		int[] arr1 = new int[sc.nextInt()];
+
+		for(int i=0; i<arr1.length; i++) {
+			System.out.printf("arr1[%d] : ", i);
+			arr1[i] = sc.nextInt();
+		}
+		
+		System.out.print("탐색할 값 : ");
+		int[] r1 = arraySrchIdx(arr1, sc.nextInt());
+		System.out.println("일치하는 요소의 인덱스");
+		for(int i : r1) {
+			System.out.println(i);
+		}
+		System.out.println();
+		
+		//7-24
+		System.out.print("요소 수 : ");
+		int[] arr2 = new int[sc.nextInt()];
+		
+		for(int i=0; i<arr2.length; i++) {
+			System.out.printf("arr2[%d] : ", i);
+			arr2[i] = sc.nextInt();
+		}
+		
+		System.out.print("삭제할 요소의 인덱스 : ");
+		int[] r2 = arrayRmvOf(arr2, sc.nextInt());
+		
+		for(int i=0; i<r2.length; i++) {
+			System.out.printf("r2[%d] = %d\n", i, r2[i]);
+		}
+		System.out.println();
+		
+		//7-25
+		System.out.print("요소 수 : ");
+		int[] arr3 = new int[sc.nextInt()];
+		
+		for(int i=0; i<arr3.length; i++) {
+			System.out.printf("arr3[%d] : ", i);
+			arr3[i] = sc.nextInt();
+		}
+		System.out.print("삭제를 시작할 인덱스 : ");
+		int idx3 = sc.nextInt();
+		System.out.print("삭제할 요소의 개수 : ");
+		int n3 = sc.nextInt();
+		int[] r3 = arrayRmvOfN(arr3, idx3, n3);
+		
+		for(int i=0; i<r3.length; i++) {
+			System.out.printf("r3[%d] = %d\n", i ,r3[i]);
+		}
+		
+		System.out.println();
+		
+		//7-26
+		System.out.print("요소 수 : ");
+		int[] arr4 = new int[sc.nextInt()];
+		
+		for(int i=0; i<arr4.length; i++) {
+			System.out.printf("arr4[%d] : ", i);
+			arr4[i] = sc.nextInt();
+		}
+		
+		System.out.print("삭제를 시작할 인덱스 : ");
+		int idx4 = sc.nextInt();
+		System.out.print("삭제할 요소의 개수 : ");
+		int n4 = sc.nextInt();
+		int[] r4 = arrayInsOf(arr4, idx4, n4);
+		
+		for(int i=0; i<r4.length; i++) {
+			System.out.printf("r4[%d] = %d\n", i ,r4[i]);
+		}
+		
+		System.out.println();
 		
 		//7-27
 		int[][] x = {{1,2,3},{4,5,6}};
